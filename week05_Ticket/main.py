@@ -1,5 +1,6 @@
 from datetime import datetime
-from Ticket import Ticket, TicketToRide, UnlimitedTicket, LimitedTicket, LimitedTicketWithRides
+from TicketToRide import TicketToRide
+from LimitedTicketWithRides import LimitedTicketWithRides
 
 ticket1 = TicketToRide("001", 1200, datetime(2025, 1, 25, 10, 40, 0 ))
 
